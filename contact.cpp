@@ -271,7 +271,7 @@ void del()
 		 if(key == it-> first && str == "lastname" )
 		 {
 			
-			 it-> second.lastname = "                                      ";
+			
 			 it-> second.lastname = ".";
 
 		 }
@@ -282,7 +282,7 @@ void del()
                    if(key == it-> first && str == "name") 
 		   {
 			   std::cout << "name";
-			   it-> second.name = "                                          ";
+	
 		           it-> second.name = ".";
 		   }	   
 
@@ -293,7 +293,7 @@ void del()
               
    if(key == it-> first && str == "address") 
 		   {
-			   it-> second.address = "                                          ";
+			  
 		           it-> second.address = ".";
 
 		   }	   
@@ -318,10 +318,6 @@ void del()
 
   if(key == it-> first && str == "all")
   {
- it-> second.name = "                                             ";
- it-> second.lastname = "                                         ";
- it-> second.address = "                                          ";
- it-> second.phone = "                                            ";
 it-> second.name = ".";
 it-> second.lastname = ".";
 it-> second.address = ".";
